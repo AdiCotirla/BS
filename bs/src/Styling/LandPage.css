@@ -1,0 +1,50 @@
+.landpage-container
+{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../assets/salon.jpg);
+    background-size: cover;
+    background-position: 40% 60%;
+    display: flex;
+    overflow: hidden;
+}
+.landpage-logo
+{
+    width: 600px;
+    height: 300px;
+    margin: 100px 0px 0px 10px;
+}
+.logo-container,
+.land-meniu
+{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    height: 100%;
+}
+.land-link
+{
+    width: 420px;
+  
+    text-decoration: none;
+    color: white;
+    font-size: 4rem;
+    letter-spacing: 0.2rem;
+    -webkit-text-stroke: 1px black;
+}
+.land-meniu
+{
+    justify-content: flex-end;
+    flex-direction: column;
+}
+.links-on
+{
+    text-align: end;
+    align-items: flex-end;
+    display: flex;
+    flex-direction: column;
+    border-right: 4px solid white;
+    /* border-right-style: double; */
+    padding-right: 15px;
+    margin: 0px 150px 150px 0px;
+}

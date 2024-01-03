@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&family=Oswald:wght@600&display=swap');
+.navbar-container
+{
+    /* background-color: gray; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80vw;
+    height: 65px;
+    margin: 50px 0px 75px 0px;
+}
+.navbar-logo-container
+{
+    width: 30%;
+    height: 100%;
+}
+.navbar-logo-link
+{
+    width: 50%;
+    height: 100%;
+}
+.navbar-logo
+{
+    height: 100%;
+}
+.navbar-links-container
+{
+    width: 65%;
+    display: flex;
+}
+.navbar-links
+{
+    margin-right: 30px;
+    text-decoration: none;
+    letter-spacing: .2rem;
+    text-transform: uppercase;
+    font-family:Open Sans;
+    font-weight: lighter;
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #727272;
+    transition: 0.5s;
+
+}
+.navbar-links:hover
+{
+    color: #a3a2a2;
+    transition: 0.5s;
+}
