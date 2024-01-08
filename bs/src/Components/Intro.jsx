@@ -27,7 +27,7 @@ export default function Intro() {
         </div>
     </div>
     <div className='story'>
-        <h1>OUR STORY</h1>
+        <h1>WE CUT OUT STORY</h1>
     </div>
     </div>
   )

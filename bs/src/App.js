@@ -8,6 +8,9 @@ import LandPage from "./Components/LandPage";
 import Navbar from "./Components/Navbar";
 import Intro from "./Components/Intro";
 import Footer from "./Components/Footer";
+import { Carousel } from "react-responsive-carousel";
+import DemoCarousel from "./Components/Carousel";
+import Specialist from "./Components/Specialist";
 
 function App() {
   return (
@@ -18,6 +21,8 @@ function App() {
         <Route path='/Home' element={<>
         <Navbar/>
         <Intro/>
+        <Specialist/>
+        <DemoCarousel/>
           <Footer/>
         </>}/>
       </Routes>
