@@ -8,9 +8,12 @@ import LandPage from "./Components/LandPage";
 import Navbar from "./Components/Navbar";
 import Intro from "./Components/Intro";
 import Footer from "./Components/Footer";
-import { Carousel } from "react-responsive-carousel";
 import DemoCarousel from "./Components/Carousel";
 import Specialist from "./Components/Specialist";
+import Location from "./Components/Location";
+import FrecventQuestions from "./Components/Questions";
+import { QuestionData } from "./Data/QuestionsData";
+
 
 function App() {
   return (
@@ -23,6 +26,7 @@ function App() {
         <Intro/>
         <Specialist/>
         <DemoCarousel/>
+        <Location/>
           <Footer/>
         </>}/>
       </Routes>

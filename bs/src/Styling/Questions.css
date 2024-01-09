@@ -1,0 +1,23 @@
+.question-master-container
+{
+    
+    display: flex;
+    flex-direction: column;
+    width: 40vw;
+}
+.question-container
+{
+    width: 100%;
+    display: flex;
+    position: relative;
+}
+.icon
+{
+    position: absolute;
+    right: 0;
+}
+.answer
+{
+    padding-left: 15px;
+    /* border-bottom: 3px solid #4B4A4A; */
+}

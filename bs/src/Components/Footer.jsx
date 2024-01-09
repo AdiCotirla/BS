@@ -20,9 +20,9 @@ export default function Footer() {
             </div>
             <div className='location'>
                 <h1>LOCATION</h1>
-                <p1 className="p-location">Strada Mioritei 1, <br/>
+                <p className="p-location">Strada Mioritei 1, <br/>
                     Cluj-Napoca 400000
-                </p1>
+                </p>
             </div>
             <div className='programare'>
                 <h1>Appointment</h1>
