@@ -63,3 +63,35 @@
     bottom: 40px; 
     color: #949393;
 }
+@media only screen and (max-width: 768px)
+{
+    .footer-container
+    {
+        height: auto;
+    }
+    .info-footer
+    {
+        flex-direction: column;
+        width: 95%;
+        height: auto;
+        margin-bottom: 150px;
+    }
+    .rights
+    {
+        text-align: center;
+        width: 90%;
+    }
+    .socials,
+    .location,
+    .programare
+    {
+        width: 95%;
+    }
+    .name-footer > h1,
+    .socials >h1,
+    .location>h1,
+    .programare>h1
+    {
+        font-weight: lighter;
+    }
+}

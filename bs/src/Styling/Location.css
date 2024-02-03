@@ -67,6 +67,31 @@
 {
     margin: 10px;
     color: white;
-    font-weight: bold;
     font-size: 1.4rem;
+}
+
+@media only screen and (max-width: 1200px)
+{
+    .location-container
+    {
+        width: 90vw;
+        height: 60vh;
+    }
+}
+@media only screen and (max-width: 768px)
+{
+    .location-container
+    {
+        height: auto;
+    }
+    .container-info-map
+    {
+        flex-direction: column;
+        width: 100vw;
+    }
+    .map-container
+    {
+        width: 95vw;
+        height: 60vh;
+    }
 }

@@ -26,7 +26,7 @@ export default function Footer() {
             </div>
             <div className='programare'>
                 <h1>Appointment</h1>
-                <p1 className="p-location">0745803464</p1>
+                <p className="p-location">0745803464</p>
                 <Link className='link-social underlined' to="https://mero.ro/p/black-scissors">MERO</Link>
             </div>
             <p className='rights'>© 2020 - 2023 Black Scissors. All rights reserved.</p>
