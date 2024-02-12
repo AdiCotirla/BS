@@ -13,6 +13,7 @@ import Specialist from "./Components/Specialist";
 import Location from "./Components/Location";
 import FrecventQuestions from "./Components/Questions";
 import { QuestionData } from "./Data/QuestionsData";
+import AllServices from "./Components/AllServices";
 
 
 function App() {
@@ -28,6 +29,11 @@ function App() {
         <DemoCarousel/>
         <Location/>
           <Footer/>
+        </>}/>
+        <Route path='/Appointment' element={<>
+        <Navbar/>
+        <AllServices show = "true"/>
+        <Footer/>
         </>}/>
       </Routes>
     </div>
