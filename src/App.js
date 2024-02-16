@@ -11,8 +11,6 @@ import Footer from "./Components/Footer";
 import DemoCarousel from "./Components/Carousel";
 import Specialist from "./Components/Specialist";
 import Location from "./Components/Location";
-import FrecventQuestions from "./Components/Questions";
-import { QuestionData } from "./Data/QuestionsData";
 import AllServices from "./Components/AllServices";
 import NavbarPhone from "./Components/NavbarPhone";
 
@@ -22,7 +20,7 @@ function App() {
     <Router>
     <div className="App">
       <Routes>
-        <Route path='/' element={<><LandPage/></>}/>
+        <Route path='/BS' element={<><LandPage/></>}/>
         <Route path='/Home' element={<>
         <Navbar/>
         <NavbarPhone/>
