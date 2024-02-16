@@ -34,10 +34,10 @@ export default function Navbar() {
             </Link>
         </div>
         <div className='navbar-links-container'>
-            <Link className='navbar-links' to="/BS/Home">Home</Link>
-            <Link className='navbar-links' to="/BS/Gallery">Gallery</Link>
-            <Link className='navbar-links'to="/BS/Contact">Contact</Link>
-            <Link className='navbar-links' to="/BS/Appointment">Appointment</Link>
+            <Link className='navbar-links' to="/Home">Home</Link>
+            <Link className='navbar-links' to="/Gallery">Gallery</Link>
+            <Link className='navbar-links'>Contact</Link>
+            <Link className='navbar-links' to="/Appointment">Appointment</Link>
         </div>
     </div>
   )

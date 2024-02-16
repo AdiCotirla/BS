@@ -22,8 +22,8 @@ function App() {
     <Router>
     <div className="App">
       <Routes>
-        <Route path='/BS/' element={<><LandPage/></>}/>
-        <Route path='/BS/Home' element={<>
+        <Route path='/' element={<><LandPage/></>}/>
+        <Route path='/Home' element={<>
         <Navbar/>
         <NavbarPhone/>
         <Intro/>
@@ -32,12 +32,12 @@ function App() {
         <Location/>
           <Footer/>
         </>}/>
-        <Route path='/BS/Appointment' element={<>
+        <Route path='/Appointment' element={<>
         <Navbar/>
         <AllServices show = "true"/>
         <Footer/>
         </>}/>
-        <Route path='/BS/Gallery' element={<><NavbarPhone/></>}/>
+        <Route path='/Gallery' element={<><NavbarPhone/></>}/>
 
       </Routes>
     </div>

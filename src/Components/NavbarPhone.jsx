@@ -37,10 +37,10 @@ export default function NavbarPhone() {
                  </button>
             </div>
     <div className={ click ? "navbar-menu enable" : "navbar-menu disable"}>
-        <Link className='link-navphone' to="/BS/Home" onClick={()=>{setClick(!click)}}>Home</Link>
-        <Link className='link-navphone'to="/BS/Gallery" onClick={()=>{setClick(!click)}}>Gallery</Link>
-        <Link className='link-navphone'to="/BS/Contact" onClick={()=>{setClick(!click)}}>Contact</Link>
-        <Link className='link-navphone'to="/BS/Appointment" onClick={()=>{setClick(!click)}}>Appointment</Link>
+        <Link className='link-navphone' to="/Home" onClick={()=>{setClick(!click)}}>Home</Link>
+        <Link className='link-navphone'to="/Gallery" onClick={()=>{setClick(!click)}}>Gallery</Link>
+        <Link className='link-navphone'to="/Contact" onClick={()=>{setClick(!click)}}>Contact</Link>
+        <Link className='link-navphone'to="/Appointment" onClick={()=>{setClick(!click)}}>Appointment</Link>
     </div>
     </div>
     </div>
