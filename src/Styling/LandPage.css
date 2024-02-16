@@ -60,13 +60,13 @@
     .land-meniu
     {
         width: 100vw;
-        height: 45%;
-        justify-content: center;
+        height: 50%;
+        justify-content: flex-start;
         align-items: center;
     }
     .logo-container-land
     {
-        height: 45%;
+        height: 40%;
         width: 100%;
     }
     .landpage-logo
