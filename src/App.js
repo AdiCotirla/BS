@@ -14,6 +14,7 @@ import Location from "./Components/Location";
 import FrecventQuestions from "./Components/Questions";
 import { QuestionData } from "./Data/QuestionsData";
 import AllServices from "./Components/AllServices";
+import NavbarPhone from "./Components/NavbarPhone";
 
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
         <Route path='/' element={<><LandPage/></>}/>
         <Route path='/Home' element={<>
         <Navbar/>
+        <NavbarPhone/>
         <Intro/>
         <Specialist/>
         <DemoCarousel/>
@@ -35,6 +37,8 @@ function App() {
         <AllServices show = "true"/>
         <Footer/>
         </>}/>
+        <Route path='/Gallery' element={<><NavbarPhone/></>}/>
+
       </Routes>
     </div>
     </Router>

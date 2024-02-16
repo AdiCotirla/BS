@@ -9,6 +9,14 @@
     height: 65px;
     margin: 25px 0px 25px 0px;
 }
+.nav-on
+{
+    visibility: visible;
+}
+.nav-off
+{
+    visibility: hidden;
+}
 .navbar-logo-container
 {
     width: 30%;
@@ -42,8 +50,158 @@
     transition: 0.5s;
 
 }
-.navbar-links:hover
+.navbar-links:hover,
+.link-navphone:hover
 {
     color: #a3a2a2;
     transition: 0.5s;
+}
+.navbar-phone
+{
+    color: #727272;
+    width: 100vw;
+    padding : 0px 20px 0 20px;
+    height: 75px;
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+}
+.phone-on
+{
+    visibility: visible;
+}
+.phone-off
+{
+    visibility: hidden;
+}
+.navbar-master
+{
+    z-index: 99999999999;
+    background-color: #000000;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+}
+.navbar-menu
+{
+    position: absolute;
+    height: 100vh;
+    background-image: url(../assets/crop.png);
+    background-repeat: no-repeat;
+    background-position: 50% 78%;
+    background-size: 100%;
+    width: 100vw;
+    background-color: #000000;
+    top: 100%;
+    transition: .3s;
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+}
+.link-navphone
+{
+    color: #727272;
+    height: 60px;
+    font-size: 28px;
+    letter-spacing: 3px;
+    font-weight: 500;
+    line-height: 1;
+    margin-left: 15px;
+}
+.disable
+{
+    right: -100%;
+    transition: .3s;
+}
+.enable
+{
+    right: 0;
+}
+.menu-button
+{
+    margin-top: 5px;
+    border: 0;
+    width: 60px;
+    height: 30px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: none;
+  
+}
+.menu-button::before
+{
+    position: absolute;
+    content: "";
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%);
+    width: 50px;
+    height: 4px;
+    background-color: #727272;  
+    transition: 500ms;
+}
+.menu-button::after
+{
+    position: absolute;
+    content: "";
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%);
+    width: 50px;
+    height: 4px;
+    background-color: #727272;  
+    transition: 500ms;
+}
+.arrow-menu
+{
+    width: 100px;
+    height: 4px;
+    background-color: #727272;  
+    transition: 500ms;
+}
+.menu-button.active::before
+{
+    transform: rotate(-45deg) translate3d(0,-50%,0);
+    top: 50%;
+    left: 0%;  
+    transition: 500ms;
+}
+.menu-button.active::after
+{
+    transform: rotate(45deg) translate3d(0,-50%,0);
+    top: 50%;
+    left: 0%;  
+    transition: 500ms;
+}
+.off
+{
+    opacity: 0;  transition: .4s;
+}
+.logo-container
+{
+    height: 80%;
+    width: 40%;
+}
+.logo-navphone
+{
+    height: 100%;
+    width: 100%;
+}
+
+@media only screen and (max-width: 900px) and (min-width: 500px)
+{
+    .logo-container
+    {
+        width: 20%;
+    }
+    .navbar-menu
+    {
+        background-size: 70%;
+    }
 }
