@@ -10,7 +10,7 @@ import "../Styling/LandPage.css"
 export default function LandPage() {
   return (
     <div className='landpage-container'>
-        <div className='logo-container'>
+        <div className='logo-container-land'>
             <img src={logo} alt='logo' className='landpage-logo'/>
         </div>
         <div className='land-meniu'>
