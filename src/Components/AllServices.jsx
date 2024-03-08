@@ -23,7 +23,7 @@ export default class AllServices extends Component {
             this.setState({ filteredService: ServicesData })
         }
         else {
-            const startsWithN = this.state.service.filter((country) => country.gender.startsWith(letter));
+            const startsWithN = this.state.service.filter((sex) => sex.gender.startsWith(letter));
             this.setState({ filteredService: startsWithN })
         }
     }
