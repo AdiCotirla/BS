@@ -20,26 +20,22 @@ function App() {
   return (
     <Router>
     <div className="App">
-      <Routes>
-        <Route path='/BS' element={<><LandPage/></>}/>
-        <Route path='/Home' element={<>
         <Navbar/>
         <NavbarPhone/>
+        <Routes>
+        <Route path='/BS' element={<><LandPage/></>}/>
+        <Route path='/Home' element={<>
         <Intro/>
         <Specialist/>
         <DemoCarousel/>
         <Location/>
-          <Footer/>
         </>}/>
         <Route path='/Appointment' element={<>
-        <Navbar/>
-        <NavbarPhone/>
         <AllServices show = "true"/>
-        <Footer/>
         </>}/>
         <Route path='/Gallery' element={<><ChunkedMap /></>}/>
-
       </Routes>
+      <Footer/>
     </div>
     </Router>
   );

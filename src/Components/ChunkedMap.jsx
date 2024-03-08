@@ -46,6 +46,8 @@ export default function ChunkedMap() {
   };
 
   return (
+    <div className='big-wrapper-container'>
+      <h1 className='head-wrap'>OUR ART</h1>
     <div className="wrapper">
       {data.data.map((item, index) => (
         <div key={index} className="wrapper-images">
@@ -55,7 +57,6 @@ export default function ChunkedMap() {
             alt={item.text}
             onClick={() => handleClick(item, index)}
           />
-          <h2>{item.text}</h2>
         </div>
       ))}
       <div>
@@ -68,6 +69,7 @@ export default function ChunkedMap() {
           />
         )}
       </div>
+    </div>
     </div>
   );
 }
