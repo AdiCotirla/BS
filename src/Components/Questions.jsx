@@ -7,7 +7,7 @@ import { GrAdd } from "react-icons/gr";
 function FrecventQuestions(props) {
     const [expanded, setExpanded] = useState(false);
     const {questionsInformation } = props;
-    return (
+    return (<>
         <div className='question-master-container'>
       <div className="question-container">
         <p className='question'>{questionsInformation.question }</p>
@@ -23,6 +23,7 @@ function FrecventQuestions(props) {
         ) : null}
         </div> 
       </div>
+      </>
     );
   }
   

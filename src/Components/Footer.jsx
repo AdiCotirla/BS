@@ -7,7 +7,8 @@ import {
     Route
   } from "react-router-dom";
 export default function Footer() {
-  return (
+  return ( <>
+    
     <div className='footer-container'>
         <div className='name-footer'>
             <h1>BLACK SCISSORS</h1>
@@ -32,5 +33,6 @@ export default function Footer() {
             <p className='rights'>© 2020 - 2023 Black Scissors. All rights reserved.</p>
         </div>
     </div>
+  </>
   )
 }

@@ -28,7 +28,7 @@ export default function Specialist() {
                         <path d="M1,5 L11,5"></path>
                         <polyline points="8 1 12 5 8 9"></polyline>
                          </svg>
-</a>
+                          </a>
                     </div>
                 </div>
             )

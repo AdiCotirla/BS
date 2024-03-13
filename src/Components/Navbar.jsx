@@ -36,7 +36,7 @@ export default function Navbar() {
         <div className='navbar-links-container'>
             <Link className='navbar-links' to="/Home">Home</Link>
             <Link className='navbar-links' to="/Gallery">Gallery</Link>
-            <Link className='navbar-links'>Contact</Link>
+            <Link className='navbar-links' to="/Contact">Contact</Link>
             <Link className='navbar-links' to="/Appointment">Appointment</Link>
         </div>
     </div>

@@ -6,6 +6,77 @@
     flex-direction: column;
     align-items: center;
 }
+.container-form
+{
+    text-transform: uppercase;
+    margin: 50px 0px 50px 0px;
+    width: 100vw;
+    height: 50vh;
+    /* background-color:#0E0E0E; */
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    
+}
+.subs-info
+{
+    
+    font-size: 2rem;
+}
+.form
+{
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    
+}
+
+.form > input
+{
+    border: none;
+    color: white;
+    background-color: #0E0E0E;
+    border-radius: 10px;
+    text-wrap: wrap;
+}
+.text-area
+{
+    display: flex;
+    text-align: center;
+    width: 550px;
+    max-width: 95vw;
+    height: 150px;
+    word-wrap: break-word;
+    text-wrap: wrap;
+}
+.submit
+{
+    padding: 19px 22px;
+    font-weight: lighter;
+}
+.stars-area
+{
+    margin-top: 20px;
+    align-items: right;
+    height: 30px;
+    width: 100px;
+}
+.button-submit
+{
+   background-color: black;
+   border: none;
+   height: 100px;
+   margin-top: 10px;
+   color: white;
+}
+
+
+
 .location-container
 {
     display: flex;

@@ -26,6 +26,7 @@
     }
   
   .overlay {
+    z-index: 2;
     position: fixed;
     top: 0;
     left: 0;
@@ -54,6 +55,7 @@
     cursor: pointer;
   }
   .overlay-arrows_left {
+    cursor: pointer;
     display: flex;
     background-color: #ffffff;
     justify-content: space-between;
@@ -76,6 +78,7 @@
   }
   
   .overlay-arrows_right {
+    cursor: pointer;
     display: flex;
     background-color: #ffffff;
     justify-content: space-between;
@@ -88,6 +91,7 @@
   }
   .wrapper-images
   {
+    cursor: pointer;
     display: flex;
     justify-content: center;
     align-items: center;
