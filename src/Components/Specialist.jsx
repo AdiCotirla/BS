@@ -22,7 +22,7 @@ export default function Specialist() {
                     </div>
                     <div className='specialist-info-holder'>
                         <p className='special-info'>{specialist.descriere}</p>
-                        <a href="#" className="cta">
+                        <a href="/Appointment" className="cta">
                         <span>BOOK NOW</span>
                         <svg width="13px" height="10px" viewBox="0 0 13 10">
                         <path d="M1,5 L11,5"></path>

@@ -15,6 +15,7 @@ import AllServices from "./Components/AllServices";
 import NavbarPhone from "./Components/NavbarPhone";
 import ChunkedMap from "./Components/ChunkedMap"
 import Contact from "./Components/Contact";
+import Review from "./Components/Review";
 
 
 function App() {
@@ -30,6 +31,7 @@ function App() {
             <Specialist/>
             <DemoCarousel/>
             <Location/>
+            <Review/>
             <Footer/>
         </>}/>
         <Route path='/Gallery' element={<>
@@ -42,6 +44,8 @@ function App() {
           <Navbar/>
             <NavbarPhone/>
             <Contact/>
+            <Location/>
+            <Footer/>
             </>}/>
         <Route path='/Appointment' element={<>
             <Navbar/>

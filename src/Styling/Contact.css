@@ -1,0 +1,53 @@
+.container-form-contact
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    color: white;
+}
+.form-contact
+{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.general-text
+{
+    height: 30px;
+    width: 150px;
+    margin-top: 20px;
+    border: none;
+    color: white;
+    background-color: #0E0E0E;
+    border-radius: 10px;
+    text-wrap: wrap;
+    padding-left: 10px;
+}
+.text-problema
+{
+    resize: none;
+    display: flex;
+    width: 550px;
+    max-width: 95vw;
+    height: 150px;
+    word-wrap: break-word;
+    text-wrap: wrap;
+}
+.text-mail
+{
+    width: 550px;
+    max-width: 95vw;
+}
+.div-info
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.text-nume
+{
+    width: 170px;
+}
