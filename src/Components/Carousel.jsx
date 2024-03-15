@@ -1,14 +1,14 @@
 
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
-import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
+import "react-responsive-carousel/lib/styles/carousel.min.css"; 
 import { Carousel } from 'react-responsive-carousel';
 import intro from "../assets/salon.jpg"
 import "../Styling/Carousel.css"
 export default class DemoCarousel extends Component {
     render() {
         return (
-            <>
+            <div className='container-slider'>
             <Carousel className='main-slider' 
              swipeable={false}
              showThumbs={false}
@@ -22,7 +22,9 @@ export default class DemoCarousel extends Component {
                     <img src={intro} className='img-carousel'/>
                 </div>
             </Carousel>
-            </>
+            <span className='span right'></span>
+            <span className='span left'></span>
+            </div>
         );
     }
 };

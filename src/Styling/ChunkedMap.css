@@ -2,6 +2,10 @@
 {
   background-color: #0E0E0E;
   display: flex;
+  color: white;
+  font-size: 1.3rem;
+  font-weight: light;
+  letter-spacing:  .2rem;
   justify-content: center;
   align-items: center;
   /* color: white; */
@@ -41,7 +45,7 @@
   {
     display: block;
     max-width: 90vw;
-    max-height: 80%;
+    height: 80%;
     margin: 60px auto;
     box-shadow: 3px 5px 7px rgba(0, 0, 0, 0.5);
   }

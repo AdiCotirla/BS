@@ -94,6 +94,7 @@ export default function ChunkedMap() {
 
   return (
     <div className='big-wrapper-container'>
+      <h1>CHECK OUR ART</h1>
       <h1 className='head-wrap'>Male</h1>
     <div className="wrapper">
       {data.male.map((item, index) => (
