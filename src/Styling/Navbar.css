@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&family=Oswald:wght@600&display=swap');
 .navbar-container
 {
+    
     /* background-color: gray; */
     display: flex;
     justify-content: space-between;

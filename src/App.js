@@ -16,11 +16,13 @@ import NavbarPhone from "./Components/NavbarPhone";
 import ChunkedMap from "./Components/ChunkedMap"
 import Contact from "./Components/Contact";
 import Review from "./Components/Review";
+import ScrollToTop from "./Components/ScrollToTop";
 
 
 function App() {
   return (
     <Router>
+      <ScrollToTop/>
     <div className="App">
         <Routes>
         <Route path='/BS' element={<><LandPage/></>}/>
