@@ -31,7 +31,7 @@ export default class AllServices extends Component {
   render() {
     return (
         <div className='services-container' >
-            <h1 className='services-header'>BLACK SCISSORS</h1>
+            <h1 className='services-header inter'>BLACK SCISSORS</h1>
             <div className='filter-container'>
                 {this.data.map((service, id) => {
                     return (

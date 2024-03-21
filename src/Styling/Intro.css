@@ -13,7 +13,7 @@
 {
     width: 80vw;
     height: 80vh;
-    background-color: #0E0E0E;
+    background-color: #1a1919;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -45,7 +45,7 @@
 }
 .intro-logo
 {
-    width: 350px;
+    width: 300px;
     height: 150px;
 }
 .info-para
@@ -66,13 +66,12 @@
     text-align: center;
     align-items: center;
     margin: 100px 0px 100px 0px;
-    background-color: #0E0E0E;
+    background-color: #1a1919;
     width: 100vw;
     height: 30vh;
 }
 .story > h1
 {
-    font-family: 'Open Sans', sans-serif;
     letter-spacing: .2rem;
     color: white;
     font-size: 3rem;

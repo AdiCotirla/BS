@@ -10,7 +10,7 @@ import {
 export default function Specialist() {
   return (
     <div className='specialist-container'>
-        <h1 className='header-specialist'>Specialists</h1>
+        <h1 className='header-specialist inter'>Specialists</h1>
         {SpecialistsData.map((specialist, index) => {
             return(
                 <div key={index} className='specialist-master'>

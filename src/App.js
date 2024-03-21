@@ -17,7 +17,8 @@ import ChunkedMap from "./Components/ChunkedMap"
 import Contact from "./Components/Contact";
 import Review from "./Components/Review";
 import ScrollToTop from "./Components/ScrollToTop";
-
+import data from "./Data/images.json"
+import Display from "./Components/Display";
 
 function App() {
   return (
@@ -39,7 +40,8 @@ function App() {
         <Route path='/Gallery' element={<>
           <Navbar/>
             <NavbarPhone/>
-            <ChunkedMap/>
+            {/* <ChunkedMap sex={data.female} title ={"Female"}/> */}
+            <Display/>
             <Footer/>
         </>}/>
         <Route path='/Contact' element={<>

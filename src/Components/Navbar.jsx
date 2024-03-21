@@ -29,7 +29,7 @@ export default function Navbar() {
   return (
     <div className='navbar-container' id='navbar-switch'>
         <div className='navbar-logo-container'>
-            <Link className='navbar-logo-link' to="/">
+            <Link className='navbar-logo-link' to="/BS">
             <img src={logo} className='navbar-logo' alt="logo" />
             </Link>
         </div>

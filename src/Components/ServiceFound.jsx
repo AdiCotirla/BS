@@ -16,9 +16,6 @@ export default function ServiceFound(props) {
                     props.gender === service.gender2 ||
                     props.show === service.show ? "store active" : "store inactive"} key={id}>
                         <div className='store-big-container'>
-                            <div className='container-head'>
-                                <h1>BLACK SCISSORS</h1>
-                            </div>
                             <div className='container-informatii'>
                                 <div className='upper-info'>
                                     <h1 className='header-upper'>{service.name}</h1>

@@ -17,17 +17,18 @@ export default function Location() {
     
     <div className='location-master-container'>
       <div className='location-container'>
-        <div className='find-container'><h1 className='find-header'>FIND US</h1></div>
+        <div className='find-container'><h1 className='find-header inter'>FIND US</h1></div>
         <div className='container-info-map'>
           <div className='location-info'>
-            <Link className='location-links'>Locatie</Link>
-            <Link className='location-links'>
+            <h1 className='location-links'>Locatie</h1>
+            <Link className='location-links' to="https://www.google.com/maps/place/Black+Scissors+Hair+Studio/@46.7653176,23.569927,17z/data=!3m1!4b1!4m6!3m5!1s0x47490fd91adac509:0x5ce2114be91ade5f!8m2!3d46.765314!4d23.5725019!16s%2Fg%2F11j6571vyq?entry=ttu">
               Strada Mioritei 1 <br />
-              Cluj-Napoca 400000
+              Etaj 1<br/>
+              Cluj-Napoca 400000 
             </Link>
-            <Link className='location-links'>Instagram </Link>
-            <Link className='location-links'>Facebook</Link>
-            <Link className='location-links'>0745803464</Link>
+            <Link className='location-links' to="https://www.instagram.com/p_b_a_hairstylist/">Instagram </Link>
+            <Link className='location-links' to= "https://www.facebook.com/profile.php?id=100063511479287">Facebook</Link>
+            <a className='location-links' href="tel:0745803464">0745803464</a>
 
           </div>
           <div className='map-container'>
@@ -42,7 +43,7 @@ export default function Location() {
             /></div>
         </div>
       </div>
-      <h1 className='header-questions'>Frequent Questions</h1>
+      <h1 className='header-questions inter'>Frequent Questions</h1>
       {QuestionArray.map((information) => {
         return (<FrecventQuestions questionsInformation={information} key={information.id} />)
       })}

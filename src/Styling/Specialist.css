@@ -2,9 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100');
 .specialist-container
 {
-  /* border:3px solid #4B4A4A;
-  box-sizing: border-box;
-    background-color:#111; */
+ 
     justify-content: center;
     align-items: center;
     display: flex;

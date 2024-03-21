@@ -9,7 +9,7 @@
 .store-big-container
 {
     position: relative;
-    background-color: #0E0E0E;
+    background-color: #1a1919;
     color: white;
     width: 1000px;
     height: 400px;
@@ -90,7 +90,7 @@
 {
     border: 4px solid #4B4A4A;
     color: white;
-    background-color: #0E0E0E;
+    background-color: #1a1919;
     display: flex;
     align-items: center;
     height: 75px;
@@ -106,7 +106,7 @@
 .letter-button
 {
     border: 3px solid #4B4A4A;
-    background-color: #0E0E0E;
+    background-color: #1a1919;
     display: flex;
     align-items: center;
     height: 65px;

@@ -28,7 +28,7 @@ export default function Contact() {
   return (
     <div>
          <div className="container-form-contact">
-      <p className='subs-info'>Contact us </p>
+      <p className='subs-info inter'>Contact us </p>
       <form onSubmit={onSubmit} className="form-contact">
         <div className='div-info'>
       <input type="text" name="Nume" required className='text-nume general-text' placeholder='First Name' />

@@ -1,0 +1,116 @@
+.item-container
+{
+    display: flex;
+    flex-wrap: wrap;
+    width: 95vw;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    gap: 60px;
+}
+.item
+{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* margin: 0px 0px 50px 20px; */
+    width: 30%;
+    /* height: 400px; */
+}
+.item-img
+{
+    width: 100%;
+    height: 300px;
+    
+}
+.container-info
+{
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 20px;
+    position: relative;
+   
+    width: 100%;
+    background-color: #1a1919;
+}
+.item-h2
+{
+   
+    width: 100%;
+    margin: 0;
+    color: white;
+   
+}
+.atu
+{
+    cursor: pointer;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+}
+
+.button-display
+{
+    cursor: pointer;
+    height: 50px;
+    width: 100px;
+    color: white;
+    background-color: #1a1919;
+    border: 1px solid white;
+    z-index: 3;
+    position: relative;
+}
+.atu-btn
+{
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+
+.button-display:hover
+{
+    color: black;
+    border: 1px solid black;
+    background-color: white;
+}
+
+@media only screen and (max-width: 990px)
+{
+    .item-container
+    {
+        flex-direction: column;
+        width: 95vw;
+       
+    }
+    .item
+    { 
+        display: flex;
+        margin: 0px 0px 20px 0px;
+        width: 100%;
+        height: 400px;
+    }
+    .display-button-a
+    {
+        width: 100%;
+    }
+    .button-display
+    {
+        height: 40px;
+        width: 100%;
+    }
+    .container-info
+    {
+        height: 150px;
+    }
+}

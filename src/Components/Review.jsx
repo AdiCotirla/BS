@@ -34,7 +34,7 @@ export default function Review() {
   
   return (
     <div className="container-form">
-    <p className='subs-info'>Give us your honest opinion below </p>
+    <p className='subs-info inter'>Give us your honest opinion below </p>
     <form onSubmit={onSubmit} className="form">
     <textarea type="text" name="Recenzie" required className='text-area' placeholder='Quick feedback' />
         <input type="number" id="star" className="stars-area" name="stele" step="0.5" placeholder="Stars" min="0.5" max="5" />
