@@ -5,22 +5,22 @@ export const displayData = [
     {
         img: salon,
         name : "Salon",
-        atu : "BS/Gallery/Salon"
+        atu : "Gallery/Salon"
     },
     {
         img: salon,
         name : "Male",
-        atu : "BS/Gallery/Male"
+        atu : "Gallery/Male"
     },
     {
         img: salon,
         name : "Female",
-        atu : "BS/Gallery/Female"
+        atu : "Gallery/Female"
     },
     {
         img: salon,
         name : "Video",
-        atu : "BS/Gallery/Video"
+        atu : "Gallery/Video"
     },
 
 ]

@@ -14,7 +14,6 @@ export default function Location() {
  
   const QuestionArray = [...QuestionData]
   return (
-    
     <div className='location-master-container'>
       <div className='location-container'>
         <div className='find-container'><h1 className='find-header inter'>FIND US</h1></div>

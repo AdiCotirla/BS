@@ -15,10 +15,10 @@ export default function LandPage() {
         </div>
         <div className='land-meniu'>
             <div className='links-on'>
-            <Link className='land-link' to="/Home">Home</Link>
-            <Link className='land-link' to="/Gallery">Gallery</Link>
-            <Link className='land-link' to="/Contact">Contact</Link>
-            <Link className='land-link' to="/Appointment">Appointment</Link>
+            <Link className='land-link inter' to="/BS/Home">Home</Link>
+            <Link className='land-link inter' to="/BS/Gallery">Gallery</Link>
+            <Link className='land-link inter' to="/BS/Contact">Contact</Link>
+            <Link className='land-link inter' to="/BS/Appointment">Appointment</Link>
             </div>
         </div>
     </div>

@@ -27,7 +27,7 @@ function App() {
     <div className="App">
         <Routes>
         <Route path='/BS' element={<><LandPage/></>}/>
-        <Route path='/Home' element={<>
+        <Route path='/BS/Home' element={<>
             <Navbar/>
             <NavbarPhone/>
             <Intro/>
@@ -37,24 +37,47 @@ function App() {
             <Review/>
             <Footer/>
         </>}/>
-        <Route path='/Gallery' element={<>
+        <Route path='/BS/Gallery' element={<>
           <Navbar/>
             <NavbarPhone/>
             {/* <ChunkedMap sex={data.female} title ={"Female"}/> */}
             <Display/>
             <Footer/>
         </>}/>
-        <Route path='/Contact' element={<>
+        <Route path='/BS/Contact' element={<>
           <Navbar/>
             <NavbarPhone/>
             <Contact/>
             <Location/>
             <Footer/>
             </>}/>
-        <Route path='/Appointment' element={<>
+        <Route path='/BS/Appointment' element={<>
             <Navbar/>
             <NavbarPhone/>
             <AllServices show = "true"/>
+            <Footer/>
+        </>}/>
+        <Route path='/BS/Gallery/Male' element={<>
+            <Navbar/>
+            <NavbarPhone/>
+            <ChunkedMap sex ={ data.male } title = {"Male"}/>
+            <Footer/>
+        </>}/> <Route path='/BS/Gallery/Female' element={<>
+            <Navbar/>
+            <NavbarPhone/>
+            <ChunkedMap sex ={ data.female } title = {"Female"}/>
+            <Footer/>
+        </>}/>
+         <Route path='/BS/Gallery/Salon' element={<>
+            <Navbar/>
+            <NavbarPhone/>
+            <ChunkedMap sex ={ data.female } title = {"Female"}/>
+            <Footer/>
+        </>}/>
+        <Route path='/BS/Gallery/Video' element={<>
+            <Navbar/>
+            <NavbarPhone/>
+            <ChunkedMap sex ={ data.female } title = {"Female"}/>
             <Footer/>
         </>}/>
       </Routes>
