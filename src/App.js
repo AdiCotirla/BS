@@ -57,24 +57,24 @@ function App() {
             <AllServices show = "true"/>
             <Footer/>
         </>}/>
-        <Route path='/BS/Gallery/Male' element={<>
+        <Route path='/Male' element={<>
             <Navbar/>
             <NavbarPhone/>
             <ChunkedMap sex ={ data.male } title = {"Male"}/>
             <Footer/>
-        </>}/> <Route path='/BS/Gallery/Female' element={<>
+        </>}/> <Route path='/Female' element={<>
             <Navbar/>
             <NavbarPhone/>
             <ChunkedMap sex ={ data.female } title = {"Female"}/>
             <Footer/>
         </>}/>
-         <Route path='/BS/Gallery/Salon' element={<>
+         <Route path='/Salon' element={<>
             <Navbar/>
             <NavbarPhone/>
             <ChunkedMap sex ={ data.female } title = {"Female"}/>
             <Footer/>
         </>}/>
-        <Route path='/BS/Gallery/Video' element={<>
+        <Route path='/Video' element={<>
             <Navbar/>
             <NavbarPhone/>
             <ChunkedMap sex ={ data.female } title = {"Female"}/>
