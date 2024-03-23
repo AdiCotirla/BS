@@ -21,7 +21,7 @@
     width: 100px;
     background: rgb(176,176,176);
     background: linear-gradient(90deg, rgba(176,176,176,0) 0%, rgba(0,0,0,1) 90%);
-    z-index: 9999999999;
+    z-index: 2;
 }
 .left
 {
