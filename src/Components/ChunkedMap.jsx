@@ -44,7 +44,7 @@ export default function ChunkedMap(sex) {
 
   return (
     <div className='big-wrapper-container'>
-      <h1 className='inter'>CHECK OUR ART</h1>
+      <h1 className='inter centered-head'>CHECK OUR ART</h1>
       <h1 className='head-wrap inter'>{sex.title}</h1>
       <div className="wrapper">
         {sex.sex.map((item, index) => (
