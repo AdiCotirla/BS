@@ -12,7 +12,7 @@ export default function LandPage() {
   return (
     <div className='landpage-container'>
         <div className='logo-container-land'>
-            <video autoPlay muted loop className='video'>
+            <video autoPlay playsInline muted loop className='video'>
               <source src= {intro} type='video/mp4'  className='sursa'/>
             </video>
         </div>
