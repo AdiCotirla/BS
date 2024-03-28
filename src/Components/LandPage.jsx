@@ -1,5 +1,6 @@
 import React from 'react'
 import logo from "../assets/logo.png"
+import intro from "../assets/intro.mp4"
 import {
     BrowserRouter as Router,
     Link,
@@ -11,7 +12,9 @@ export default function LandPage() {
   return (
     <div className='landpage-container'>
         <div className='logo-container-land'>
-            <img src={logo} alt='logo' className='landpage-logo'/>
+            <video autoPlay muted loop className='video'>
+              <source src= {intro} type='video/mp4'  className='sursa'/>
+            </video>
         </div>
         <div className='land-meniu'>
             <div className='links-on'>
