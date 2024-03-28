@@ -106,7 +106,7 @@
     justify-content: center;
     align-items: center;
     width: 300px;
-    height: 400px;
+    height: 500px;
     max-width: 100%;
     margin: 0 20px 20px 20px;
   }
@@ -139,6 +139,17 @@
   {
     width: 100%;
     margin: 0 10px 15px 10px;
-
+  }
+  .overlay img 
+  {
+    height: 60%;
+  }
+  .overlay-arrows_right,
+  .overlay-arrows_left,
+  .overlay-arrows_right svg,
+  .overlay-arrows_left svg
+  {
+    height: 25px;
+    width: 25px;
   }
 }
