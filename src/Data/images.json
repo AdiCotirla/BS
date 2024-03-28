@@ -3,66 +3,107 @@
     "male": [
       {
         "text": "Description of image is here image1",
-        "link": "./image/back.jpg"
+        "link": "./image/male1.jpg"
       },
       {
-        "text": "Description of image is here image2",
-        "link": "https://d3uxkpn8v3i9eu.cloudfront.net/responsive-images/large/5ead67e2b9797f55d6564bc6.jpg"
+        "text": "Description of image is here image1",
+        "link": "./image/male2.jpg"
       },
       {
-        "text": "Description of image is here image3",
-        "link": "https://d3uxkpn8v3i9eu.cloudfront.net/responsive-images/medium/61af5b39471ab4d1491064d6.jpg"
+        "text": "Description of image is here image1",
+        "link": "./image/male3.jpg"
       },
       {
-        "text": "Description of image is here image3",
-        "link": "https://d3uxkpn8v3i9eu.cloudfront.net/responsive-images/large/5f86ac9349de7a5b2a243b8e.jpg"
-      }
-      ,
+        "text": "Description of image is here image1",
+        "link": "./image/male4.jpg"
+      },
       {
-        "text": "Description of image is here image3",
-        "link": "https://d3uxkpn8v3i9eu.cloudfront.net/responsive-images/medium/618ca6298034fd3b5bc6c3ef.jpg"
-      }
-      ,
+        "text": "Description of image is here image1",
+        "link": "./image/male5.jpg"
+      },
       {
-        "text": "Description of image is here image3",
-        "link": "https://d3uxkpn8v3i9eu.cloudfront.net/responsive-images/large/5f86aca049de7a5b2a243b91.jpg"
-      }
-      ,
+        "text": "Description of image is here image1",
+        "link": "./image/male6.jpg"
+      },
       {
-        "text": "Description of image is here image3",
-        "link": "https://d3uxkpn8v3i9eu.cloudfront.net/responsive-images/large/5f86acac49de7a5b2a243ba0.jpg"
+        "text": "Description of image is here image1",
+        "link": "./image/male7.jpg"
+      },
+      {
+        "text": "Description of image is here image1",
+        "link": "./image/male8.jpg"
+      },
+      {
+        "text": "Description of image is here image1",
+        "link": "./image/male9.jpg"
       }
-    
     ],
     "female" :[
-      
       {
         "text": "Description of image is here image1",
-        "link": "https://d3uxkpn8v3i9eu.cloudfront.net/responsive-images/medium/5ead669cb9797f55d6564ba6.jpg"
-      },
-      
-      {
-        "text": "Description of image is here image1",
-        "link": "https://d3uxkpn8v3i9eu.cloudfront.net/responsive-images/large/5ead67c1b9797f55d6564bc4.jpg"
+        "link": "./image/female1.jpg"
       },
       {
         "text": "Description of image is here image1",
-        "link": "https://d3uxkpn8v3i9eu.cloudfront.net/responsive-images/large/5f86acea49de7a5b2a243bb2.jpg"
+        "link": "./image/female2.jpg"
+      },
+      {
+        "text": "Description of image is here image1",
+        "link": "./image/female3.jpg"
+      },
+      {
+        "text": "Description of image is here image1",
+        "link": "./image/female4.jpg"
+      },
+      {
+        "text": "Description of image is here image1",
+        "link": "./image/female5.jpg"
+      },
+      {
+        "text": "Description of image is here image1",
+        "link": "./image/female6.jpg"
+      },
+      {
+        "text": "Description of image is here image1",
+        "link": "./image/female7.jpg"
       }
-      ,
-      {
-        "text": "Description of image is here image1",
-        "link": "https://d3uxkpn8v3i9eu.cloudfront.net/responsive-images/medium/5f86ad0d49de7a5b2a243bc4.jpg"
-      },
-      {
-        "text": "Description of image is here image1",
-        "link": "https://d3uxkpn8v3i9eu.cloudfront.net/responsive-images/small/5ead66a5b9797f55d6564baa.jpg"
-      },
-      {
-        "text": "Description of image is here image1",
-        "link": "https://d3uxkpn8v3i9eu.cloudfront.net/responsive-images/medium/5f86ad3d49de7a5b2a243bde.jpg"
-      }
+     
     
+    ],
+    "salon" : [
+      {
+        "text": "Description of image is here image1",
+        "link": "./image/team1.jpg"
+      },
+      {
+        "text": "Description of image is here image1",
+        "link": "./image/team2.jpg"
+      },
+      {
+        "text": "Description of image is here image1",
+        "link": "./image/team3.jpg"
+      },
+      {
+        "text": "Description of image is here image1",
+        "link": "./image/team4.jpg"
+      },
+      {
+        "text": "Description of image is here image1",
+        "link": "./image/team5.jpg"
+      },
+      {
+        "text": "Description of image is here image1",
+        "link": "./image/team6.jpg"
+      },
+      {
+        "text": "Description of image is here image1",
+        "link": "./image/team7.jpg"
+      },
+      {
+        "text": "Description of image is here image1",
+        "link": "./image/team8.jpg"
+      }
+      
     ]
   }
   

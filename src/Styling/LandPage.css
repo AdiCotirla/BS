@@ -49,10 +49,11 @@
     width: 420px;
     text-decoration: none;
     color: white;
-    font-size: 4rem;
+    font-size: 3rem;
     margin-top: 20px;
     letter-spacing: 0.2rem;
     font-weight: 200;
+    text-shadow: 1px 3px 0 #969696, 1px 13px 5px #aba8a8;
 }
 .links-on
 {
@@ -70,7 +71,7 @@
     .land-link
     {
         width: 100%;
-        font-size: 2.5rem;
+        font-size: 2rem;
     }
     .links-on
     {

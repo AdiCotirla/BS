@@ -68,10 +68,10 @@ function App() {
             <ChunkedMap sex ={ data.female } title = {"Female"}/>
             <Footer/>
         </>}/>
-         <Route path='/BS/Salon' element={<>
+         <Route path='/BS/Team' element={<>
             <Navbar/>
             <NavbarPhone/>
-            <ChunkedMap sex ={ data.female } title = {"Female"}/>
+            <ChunkedMap sex ={ data.salon} title = {"Team"}/>
             <Footer/>
         </>}/>
         <Route path='/BS/Video' element={<>

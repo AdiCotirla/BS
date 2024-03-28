@@ -1,19 +1,19 @@
-import salon from "../assets/intro.jpg"
-
-
+import salon from "../assets/salon.jpg"
+import male from "../assets/male.jpg"
+import female from "../assets/female.jpg"
 export const displayData = [
     {
         img: salon,
-        name : "Salon",
-        atu : "/BS/Salon"
+        name : "Team",
+        atu : "/BS/Team"
     },
     {
-        img: salon,
+        img: male,
         name : "Male",
         atu : "/BS/Male"
     },
     {
-        img: salon,
+        img: female,
         name : "Female",
         atu : "/BS/Female"
     },
