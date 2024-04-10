@@ -1,4 +1,5 @@
 import salon from "../assets/salon.jpg"
+import pic from "../assets/pic.jpg"
 import male from "../assets/male.jpg"
 import female from "../assets/female.jpg"
 export const displayData = [
@@ -18,7 +19,7 @@ export const displayData = [
         atu : "/BS/Female"
     },
     {
-        img: salon,
+        img: pic,
         name : "Video",
         atu : "/BS/Video"
     },

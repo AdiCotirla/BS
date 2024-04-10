@@ -19,6 +19,7 @@ import Review from "./Components/Review";
 import ScrollToTop from "./Components/ScrollToTop";
 import data from "./Data/images.json"
 import Display from "./Components/Display";
+import VideoDisplay from "./Components/Video";
 
 function App() {
   return (
@@ -40,7 +41,6 @@ function App() {
         <Route path='/BS/Gallery' element={<>
           <Navbar/>
             <NavbarPhone/>
-            {/* <ChunkedMap sex={data.female} title ={"Female"}/> */}
             <Display/>
             <Footer/>
         </>}/>
@@ -77,7 +77,7 @@ function App() {
         <Route path='/BS/Video' element={<>
             <Navbar/>
             <NavbarPhone/>
-            <ChunkedMap sex ={ data.female } title = {"Female"}/>
+            <VideoDisplay/>
             <Footer/>
         </>}/>
       </Routes>

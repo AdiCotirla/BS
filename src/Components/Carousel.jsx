@@ -4,6 +4,7 @@ import ReactDOM from 'react-dom';
 import "react-responsive-carousel/lib/styles/carousel.min.css"; 
 import { Carousel } from 'react-responsive-carousel';
 import intro from "../assets/salon.jpg"
+import intro2 from "../assets/salon2.jpg"
 import "../Styling/Carousel.css"
 export default class DemoCarousel extends Component {
     render() {
@@ -19,9 +20,10 @@ export default class DemoCarousel extends Component {
                     <img src={intro} className='img-carousel'/>
                 </div>
                 <div className='carousel-container'>
-                    <img src={intro} className='img-carousel'/>
+                    <img src={intro2} className='img-carousel'/>
                 </div>
             </Carousel>
+            <span className='overlay-span'></span>
             <span className='span right'></span>
             <span className='span left'></span>
             </div>
