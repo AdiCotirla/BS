@@ -14,10 +14,10 @@ export default function LandPage() {
   return (
     <div className='landpage-container'>
       <div className="video-container">
-      <video autoPlay loop muted controls={false} className='pc'  >
+      <video autoPlay loop muted controls={false}  webkit-playsinline playsInline className='pc'  >
        <source src={introPc} type="video/mp4" />
       </video>
-      <video autoPlay loop muted controls={false} className='phone'  >
+      <video autoPlay loop muted controls={false}   webkit-playsinline playsInline className='phone'  >
        <source src={introPhone} type="video/mp4" />
       </video>
 </div>
